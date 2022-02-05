@@ -8,7 +8,7 @@ body{
     background-color: #fafafa;
 }
 .container{
-    max-width: 375px;
+    max-width: 1200px;
 }
 .head{
     display: flex;
@@ -91,6 +91,9 @@ span{
 }
 
 @media only screen and (max-width: 375px){
+    .container{
+        max-width: 375px;
+    }
     h1{
         font-size: 20px;
         margin-top: 50px;
